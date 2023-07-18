@@ -100,3 +100,5 @@ docs/_build/
 *.DS_STORE
 
 .idea/
+/tmp
+fff 
