@@ -13,7 +13,7 @@ CIRCOM_BENCHMAKR_DIR = os.path.join(BENCHMARKS_DIR, "circom")
 SNARKJS_BENCHMAKR_DIR = os.path.join(BENCHMARKS_DIR, "snarkjs")
 CIRCOM_SCRIPT = os.path.join(CIRCOM_DIR, "scripts", "run_circuit.sh")
 CIRCOM_CIRCUITS_DIR = os.path.join(CIRCOM_DIR, "circuits", "benchmarks")
-CIRCOM_PTAU = os.path.join(CIRCOM_DIR, "phase1", "powersOfTau28_hez_final_16.ptau")
+CIRCOM_PTAU = os.path.join(CIRCOM_DIR, "phase1", "powersOfTau28_hez_final_20.ptau")
 CIRCOM_ARITHMETICS_SCRIPT = os.path.join(CIRCOM_DIR, "scripts", "arithmetics.js")
 CIRCOM_EC_SCRIPT = os.path.join(CIRCOM_DIR, "scripts", "curves.js")
 ### GENERAL ###
