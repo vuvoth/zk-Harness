@@ -1,0 +1,12 @@
+[submodule "circom/circuits/benchmarks/circom-rsa-verify"]
+	path = circom/circuits/benchmarks/circom-rsa-verify
+	url = https://github.com/vuvoth/circom-rsa-verify
+	branch = benchmark
+[submodule "circom/circuits/benchmarks/circom-rsa"]
+	path = circom/circuits/benchmarks/circom-rsa
+	url = https://github.com/vuvoth/circom-rsa
+	branch = benchmark
+[submodule "circom/circuits/benchmarks/zk-email-verify"]
+	path = circom/circuits/benchmarks/zk-email-verify
+	url = https://github.com/vuvoth/zk-email-verify
+	branch = benchmark

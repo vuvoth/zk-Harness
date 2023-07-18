@@ -28,6 +28,12 @@ benchmark-toy-circom:
 	$(info --------------------------------------------)
 	python3 -m _scripts.reader --config _input/config/circom/config_all_toy.json  
 
+benchmark-rsa-circom:
+	$(info --------------------------------------------)
+	$(info ---------- CIRCOM TOY BENCHMARKS -----------)
+	$(info --------------------------------------------)
+	python3 -m _scripts.reader --config _input/config/circom/rsa.json  
+
 benchmark-circom-circuits: benchmark-toy-circom
 
 benchmark-gnark-arithmetics:
