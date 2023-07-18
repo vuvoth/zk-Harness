@@ -1,0 +1,32 @@
+{
+    "project": "circom/snarkjs",
+    "project_url": "https://github.com/iden3/circom",
+    "category": "circuit",
+    "count": 10,
+    "payload": {
+        "backend": [
+            "groth16"
+        ],
+        "curves": [
+            "bn128"
+        ], 
+        "circuits": {
+            "circom-rsa-verify/circuits": {
+                "input_path": "_input/circuit/circom-rsa-verify"
+            },
+            "circom-rsa/circuits": {
+                "input_path": "_input/circuit/circom-rsa"
+            },
+            "zk-email-verify/packages/circuits/helpers": {
+                "input_path": "_input/circuit/zk-email-verify"
+            }
+        },
+        "algorithm": [
+            "compile",
+            "setup",
+            "witness",
+            "prove",
+            "verify"
+        ]
+    }    
+}
